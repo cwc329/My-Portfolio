@@ -1,8 +1,13 @@
 My-Portfolio
 ===
+## Demo Link
+[Simple Blog](http://mentor-program.co/mtr04group6/cwc329/blog/V1_0_0/)  
+[Simple Bulletin](http://mentor-program.co/mtr04group6/cwc329/bulletin/V1_1_0/index.php)  
+[Twitch APT 練習](https://cwc329.github.io/)  
+
 ## Simple Blog
-[demo](http://mentor-program.co/mtr04group6/cwc329/blog/V1_0_0/)
-以 PHP 為主體開發，練習使用 PHP 做後端資料驗證，並且與資料庫互動。
+[Blog demo](http://mentor-program.co/mtr04group6/cwc329/blog/V1_0_0/)  
+以 PHP 開發，練習使用 PHP 做後端資料驗證，並且與資料庫互動。
 ### 頁面：
 - 一般頁面－所有人都可瀏覽
   1. 首頁，顯示最新的五篇文章。
@@ -21,3 +26,31 @@ My-Portfolio
   2. 有小編，小編可以發表、編輯文章與分類，但是無法刪除。
   3. 文章分類，每篇文章可以選擇一個分類，也可以不設分類。
   4. 在首頁與文章列表可以預覽文章部分內容，並且有「read more」按鍵可以看到所有內容。
+
+## Simple Bulletin
+[Bulletin demo](http://mentor-program.co/mtr04group6/cwc329/bulletin/V1_1_0/index.php)  
+同樣以 PHP 開發，簡易的小型留言板。
+### 頁面：
+- 一般頁面－所有人都可瀏覽
+  1. 首頁，顯示所有留言，登入後可以在首頁發表留言並且更改自己的暱稱。
+  2. 註冊頁面，註冊帳號，限制帳號密打為英文與數字，但不限長度。組別限制1-6。
+  3. 登入頁面。
+  4. 編輯留言頁面，會員可以編輯自己的留言。
+
+- 管理頁面－僅管理員
+  1. 會院管理頁面，可以看到所有會員的資料以及變更會員類型。
+
+
+### 功能：
+  1. 可以註冊會員，需要註冊會員才能發留言
+  2. 有管理員與小編，管理員可以編輯與刪除任意留言；小編可以編輯任何留言，但不能刪除。
+  3. 禁言功能，可以使特定會員不得發表新留言，不過可以刪除以及編輯會員自己的舊留言。
+
+## Twitch API 練習
+[Twitch APT 練習](https://cwc329.github.io/)  
+練習 AJAX，串接 Twitch API。  
+### 功能
+1. 顯示目前最多人觀看的 20 個實況。 
+2. 右上角為目前 Twitch 最熱門的 5 個遊戲，點擊可以顯示該遊戲最多人觀看的 20 個實況。
+3. 頁面最下面有顯示更多的按鈕，按下之後可以再顯示 20 個實況。
+4. 左上角可以搜尋遊戲，可以查詢該遊戲目前的實況。
