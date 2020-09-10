@@ -48,7 +48,7 @@ My-Portfolio
 
 ## Twitch API 練習
 [Twitch APT 練習](https://cwc329.github.io/)  
-練習 AJAX，串接 Twitch API。  
+以 XMLHttpRequest 練習 AJAX，串接 Twitch API。  
 ### 功能
 1. 顯示目前最多人觀看的 20 個實況，點擊該實況連結可以直接前往頻道觀看。 
 2. 右上角為目前 Twitch 最熱門的 5 個遊戲，點擊可以顯示該遊戲最多人觀看的 20 個實況。
